@@ -1,0 +1,371 @@
+/*body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
+}*/
+*:focus {
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-company .center .container h1 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #202020;
+  margin-bottom: 22px;
+  padding-top: 70px;
+}
+
+.about-company .center .container .main-content {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.about-company .center .container .add-content {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+}
+
+.about-company .center .container .first-explanation {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.about-company .center .container .first-explanation .image1 {
+  padding-right: 30px;
+}
+
+.about-company .center .container .first-explanation .image1 img {
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about-company .center .container .first-explanation .text-descr {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 30px;
+}
+
+.about-company .center .container .first-explanation .text-descr h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.about-company .center .container .first-explanation .text-descr p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+}
+
+.about-company .center .container .second-explanation {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-company .center .container .second-explanation .text-second-left {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-right: 30px;
+}
+
+.about-company .center .container .second-explanation .text-second-left h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.about-company .center .container .second-explanation .text-second-left p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+}
+
+.about-company .center .container .second-explanation .image-right {
+  padding-left: 30px;
+}
+
+.about-company .center .container .second-explanation .image-right img {
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.third-section {
+  background: #f6f6f6;
+}
+
+.third-section .center .third-section-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-left {
+  padding-right: 30px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-left h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #202020;
+  margin-bottom: 40px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-left .office-walls-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-left .office-walls-item img {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-left .office-walls-item p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: #202020;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-right {
+  padding-left: 30px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-right h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.third-section .center .third-section-text .third-section-summary .office-walls-right p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.four-section .center .types-are .types-one-two {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.four-section .center .types-are .types-one-two h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #202020;
+  margin-bottom: 40px;
+}
+
+.four-section .center .types-are .types-one-two p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #202020;
+  margin-bottom: 40px;
+}
+
+.four-section .center .types-are .types-one-two .title-content-left {
+  padding-right: 30px;
+}
+
+.four-section .center .types-are .types-one-two .title-content-left .number-types {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 65px;
+  text-transform: uppercase;
+  color: #f36327;
+  -webkit-text-stroke: 1px #f36327;
+  -webkit-text-fill-color: white;
+}
+
+.four-section .center .types-are .types-one-two .title-content-left .number-types:hover {
+  -webkit-text-fill-color: #f36327;
+}
+
+.four-section .center .types-are .types-one-two .title-content-left h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.four-section .center .types-are .types-one-two .title-content-left .types-one-descr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.four-section .center .types-are .types-one-two .title-content-right {
+  padding-left: 30px;
+}
+
+.four-section .center .types-are .types-one-two .title-content-right .number-types {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 65px;
+  text-transform: uppercase;
+  color: #f36327;
+  -webkit-text-stroke: 1px #f36327;
+  -webkit-text-fill-color: white;
+}
+
+.four-section .center .types-are .types-one-two .title-content-right .number-types:hover {
+  -webkit-text-fill-color: #f36327;
+}
+
+.four-section .center .types-are .types-one-two .title-content-right h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.four-section .center .types-are .types-one-two .title-content-right .types-two-descr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.four-section .center .types-are .type-bottom {
+  padding-top: 40px;
+}
+
+.four-section .center .types-are .type-bottom p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .center {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about-company .center .container h1 {
+    padding-top: 40px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .third-section .center .third-section-text {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .third-section .center .third-section-text .third-section-summary .office-walls-left h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .four-section .center .types-are .types-one-two h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .four-section .center .types-are .types-one-two {
+    padding-top: 36px;
+  }
+  .about-company .center .container .first-explanation {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767.58px) {
+  .about-company .center .container .first-explanation .text-descr,
+  .about-company .center .container .second-explanation .image-right,
+  .about-company .center .container .second-explanation .text-second-left,
+  .third-section .center .third-section-text .third-section-summary .office-walls-right,
+  .third-section .center .third-section-text,
+  .four-section .center .types-are .types-one-two .title-content-right {
+    padding-left: 12px;
+  }
+}
+/*# sourceMappingURL=style2.css.map */
